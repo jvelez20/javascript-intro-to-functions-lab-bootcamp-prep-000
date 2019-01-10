@@ -10,7 +10,7 @@ describe('whisper(string)', function() {
      const spy = expect.spyOn(console, 'log').andCallThrough()
      logWhisper('hello')
     expect(whisper('HELLO')).toEqual('hello')
-    
+    console.log.restore()
   })
 })
 
