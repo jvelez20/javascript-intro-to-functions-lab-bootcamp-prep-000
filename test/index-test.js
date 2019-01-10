@@ -6,7 +6,7 @@ describe('shout(string)', function() {
 })
 
 describe('whisper(string)', function() {
-  return('calls console.log() recieves one argument and returns it in all lowercase', function() {
+  it('recieves one argument and returns it in all lowercase', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
 })
