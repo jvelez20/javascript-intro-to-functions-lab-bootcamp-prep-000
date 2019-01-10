@@ -36,7 +36,7 @@ describe('logWhisper(string)', function() {
 })
 
 describe('sayHiToGrandma(string)', function() {
-  return('returns "I can\'t hear you!" if `string` is lowercase', function() {
+  console.log('returns "I can\'t hear you!" if `string` is lowercase', function() {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
   })
 
